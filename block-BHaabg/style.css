@@ -1,0 +1,155 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*custom style*/
+*, *::before, *::after{
+	box-sizing: border-box;
+}
+body{
+	line-height: 1.5;
+	font-size: 16px;
+}
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 32px;
+}
+/*hearder*/
+.header{
+	font-size: 0;
+	background-color: #eae8e8;
+	padding: 0 10px;
+	position: fixed;
+	width: 100%;
+}
+.brand img{
+	width: 180px;
+}
+.brand, .nav{
+	display: inline-block;
+	vertical-align: middle;
+}
+.nav{
+	width: calc(100% - 180px);
+	font-size: 26px;
+	text-align: right;
+}
+.nav a{
+	font-size: 30px;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-left: 32px ;
+}
+/*article*/
+.article{
+	font-size: 0;
+	padding: 60px 0;
+    padding-top: 152px;
+}
+.article-img{
+	width: 600px;
+	border: 2px solid #ed940e;
+	border-radius: 10px;
+}
+.col{
+	width: 50%;
+	display: inline-block;
+	font-size: 20px;
+	vertical-align: top;
+}
+.heading{
+	font-size: 38px;
+	margin-bottom: 20px;	
+}
+.text{
+	font-size: 20px;
+	line-height: 1.8;
+}
+.article-col{
+	padding: 32px;
+}
+/*gallery*/
+.gallery{
+   margin: 0 32px;
+}
+.gallery-img{
+    width: 32.3%;
+    padding:0 32px;
+}
+.row-1{
+    padding:32px ;
+    margin: 0 40px;
+	border-radius: 10px;
+}
+.row-2{
+    padding:32px ;
+    margin: 0 40px;
+}
+/*footer*/
+.footer{
+	text-align: center;
+	padding: 32px 0;
+	background-color: grey;
+}
+.footer a{
+	margin: 0 16px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 24px;
+	color: aqua;
+}
+/*top btn*/
+.btn {
+	display: inline-block;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+	position: fixed;
+	right: 32px;
+	bottom: 32px;
+}
